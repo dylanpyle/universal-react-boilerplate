@@ -1,9 +1,13 @@
 # universal-react-boilerplate
 
-A personal starting point for new "universal" react projects. As little magic as
-possible.
+[![CircleCI](https://circleci.com/gh/dylanpyle/universal-react-boilerplate.svg?style=svg)](https://circleci.com/gh/dylanpyle/universal-react-boilerplate)
 
-Stack:
+A personal starting point for new "universal" react projects.
+
+Features surprisingly little magic. This was inspired by the idea of creating an
+"ejected" version of [zeit/next](https://zeit.co/blog/next).
+
+Includes:
 
 - react
 - koa
@@ -13,12 +17,13 @@ Stack:
 - tape
 - eslint
 
-Intentionally lacking:
+Intentionally does not include:
 
 - redux
 - hot reloading
 - css modules
 - helmet
+- many other things
 
 ## Prerequisites
 
